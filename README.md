@@ -21,11 +21,17 @@ The model was trained on ~120M tokens of English text (Gutenberg + WikiText subs
 ✨ Features
 
 Pure PyTorch implementation
+
 GPT architecture (256-dim, 4 layers, 4 heads)
+
 Efficient dataloader with stride-based windowing
+
 Automatic mixed precision (AMP)
+
 Checkpointing + resume training
+
 Text generation with repetition penalty, top-k/top-p
+
 Simple training and inference scripts
 
 📈 Evaluation Results :
@@ -35,6 +41,7 @@ Validation on data/val.txt (≈9M tokens windowed):
 Checkpoint	Avg Loss	  Perplexity
 epoch_4	    ~3.99	       ~54
 epoch_5	  ~3.98–4.01	   ~54–55
+
 
 
 
