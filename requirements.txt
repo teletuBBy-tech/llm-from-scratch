@@ -1,0 +1,7 @@
+torch>=2.0
+tiktoken
+numpy
+tqdm
+tensorboard
+einops
+pytest

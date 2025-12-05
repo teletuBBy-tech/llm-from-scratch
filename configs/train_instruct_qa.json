@@ -1,0 +1,23 @@
+{
+  "data_file": "data/instruct_text_qa_tiny.txt",
+  "context_length": 128,
+  "stride": 32,
+  "batch_size": 4,
+  "embed_dim": 256,
+  "n_layers": 4,
+  "n_heads": 4,
+  "dropout": 0.1,
+  "lr": 4e-05,
+  "weight_decay": 0.0,
+  "epochs": 8,
+  "use_amp": true,
+  "grad_clip_norm": 1.0,
+  "print_every": 200,
+  "log_every": 50,
+  "ckpt_dir": "checkpoints_instruct_qa",
+  "log_dir": "runs/instruct_qa",
+  "seed": 42,
+  "save_last": true,
+  "warmup_steps": 50,
+  "accum_steps": 4
+}
