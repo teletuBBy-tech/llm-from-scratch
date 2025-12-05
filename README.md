@@ -39,8 +39,11 @@ Simple training and inference scripts
 Validation on data/val.txt (≈9M tokens windowed):
 
 Checkpoint	Avg Loss	  Perplexity
+
 epoch_4	    ~3.99	       ~54
+
 epoch_5	  ~3.98–4.01	   ~54–55
+
 
 
 
